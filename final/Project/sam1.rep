@@ -1,0 +1,173 @@
+Simulation	Software Name	JaamSim	-
+Simulation	Software Version	2016-21	-
+Simulation	Configuration File	/home/akhila/Desktop/sam1.cfg	-
+Simulation	RunNumber	1.0	-
+Simulation	RunIndex	{ 1 }	-
+Simulation	Present Time and Date	10 April, 2017 10:54	-
+Simulation	Initialization Duration	0.0	h
+Simulation	Run Duration	1.0	h
+Simulation	Present Simulation Time	1.0	h
+
+*** Branch ***
+
+Branch1	StateTimes[None]	1.0	h
+Branch1	NumberAdded	781.0	-
+Branch1	NumberProcessed	781.0	-
+
+*** EntityConveyor ***
+
+1ToBranch	StateTimes[Breakdown]	0.0	h
+1ToBranch	StateTimes[Idle]	0.5749982705555555	h
+1ToBranch	StateTimes[Maintenance]	0.0	h
+1ToBranch	StateTimes[Stopped]	0.0	h
+1ToBranch	StateTimes[Working]	0.4250017294444444	h
+1ToBranch	Utilisation	0.4250017294444444	-
+1ToBranch	Commitment	0.4250017294444445	-
+1ToBranch	Availability	1.0	-
+1ToBranch	Reliability	1.0	-
+1ToBranch	NumberAdded	781.0	-
+1ToBranch	NumberProcessed	781.0	-
+
+3To1	StateTimes[Breakdown]	0.0	h
+3To1	StateTimes[Idle]	0.9594444444444444	h
+3To1	StateTimes[Maintenance]	0.0	h
+3To1	StateTimes[Stopped]	0.0	h
+3To1	StateTimes[Working]	0.04055555555555555	h
+3To1	Utilisation	0.04055555555555555	-
+3To1	Commitment	0.04055555555555557	-
+3To1	Availability	1.0	-
+3To1	Reliability	1.0	-
+3To1	NumberAdded	73.0	-
+3To1	NumberProcessed	73.0	-
+
+BranchTo2	StateTimes[Breakdown]	0.0	h
+BranchTo2	StateTimes[Idle]	0.6569541052777778	h
+BranchTo2	StateTimes[Maintenance]	0.0	h
+BranchTo2	StateTimes[Stopped]	0.0	h
+BranchTo2	StateTimes[Working]	0.3430458947222222	h
+BranchTo2	Utilisation	0.3430458947222222	-
+BranchTo2	Commitment	0.34304589472222224	-
+BranchTo2	Availability	1.0	-
+BranchTo2	Reliability	1.0	-
+BranchTo2	NumberAdded	627.0	-
+BranchTo2	NumberProcessed	627.0	-
+
+BranchTo3	StateTimes[Breakdown]	0.0	h
+BranchTo3	StateTimes[Idle]	0.9598681219444445	h
+BranchTo3	StateTimes[Maintenance]	0.0	h
+BranchTo3	StateTimes[Stopped]	0.0	h
+BranchTo3	StateTimes[Working]	0.040131878055555556	h
+BranchTo3	Utilisation	0.040131878055555556	-
+BranchTo3	Commitment	0.040131878055555514	-
+BranchTo3	Availability	1.0	-
+BranchTo3	Reliability	1.0	-
+BranchTo3	NumberAdded	73.0	-
+BranchTo3	NumberProcessed	73.0	-
+
+BranchToSink	StateTimes[Breakdown]	0.0	h
+BranchToSink	StateTimes[Idle]	0.955	h
+BranchToSink	StateTimes[Maintenance]	0.0	h
+BranchToSink	StateTimes[Stopped]	0.0	h
+BranchToSink	StateTimes[Working]	0.045	h
+BranchToSink	Utilisation	0.045	-
+BranchToSink	Commitment	0.04500000000000004	-
+BranchToSink	Availability	1.0	-
+BranchToSink	Reliability	1.0	-
+BranchToSink	NumberAdded	81.0	-
+BranchToSink	NumberProcessed	81.0	-
+
+GenTo1	StateTimes[Breakdown]	0.0	h
+GenTo1	StateTimes[Idle]	0.6144252886111111	h
+GenTo1	StateTimes[Maintenance]	0.0	h
+GenTo1	StateTimes[Stopped]	0.0	h
+GenTo1	StateTimes[Working]	0.3855747113888889	h
+GenTo1	Utilisation	0.3855747113888889	-
+GenTo1	Commitment	0.3855747113888889	-
+GenTo1	Availability	1.0	-
+GenTo1	Reliability	1.0	-
+GenTo1	NumberAdded	711.0	-
+GenTo1	NumberProcessed	711.0	-
+
+*** EntityGenerator ***
+
+Gen	StateTimes[Breakdown]	0.0	h
+Gen	StateTimes[Idle]	0.0	h
+Gen	StateTimes[Maintenance]	0.0	h
+Gen	StateTimes[Stopped]	0.0	h
+Gen	StateTimes[Working]	1.0	h
+Gen	Utilisation	1.0	-
+Gen	Commitment	1.0	-
+Gen	Availability	1.0	-
+Gen	Reliability	1.0	-
+Gen	NumberAdded	711.0	-
+Gen	NumberProcessed	711.0	-
+
+*** EntitySink ***
+
+Sink	StateTimes[None]	1.0	h
+Sink	NumberAdded	81.0	-
+Sink	NumberProcessed	81.0	-
+
+Sink2	StateTimes[None]	1.0	h
+Sink2	NumberAdded	627.0	-
+Sink2	NumberProcessed	627.0	-
+
+*** Queue ***
+
+Queue1	StateTimes[None]	1.0	h
+Queue1	NumberAdded	784.0	-
+Queue1	NumberProcessed	782.0	-
+Queue1	QueueLengthAverage	0.21026307222222185	-
+Queue1	QueueLengthStandardDeviation	0.54086669687919	-
+Queue1	QueueLengthMinimum	0.0	-
+Queue1	QueueLengthMaximum	4.0	-
+Queue1	QueueLengthTimes[0]	0.8398903013888891	h
+Queue1	QueueLengthTimes[1]	0.12207644333333319	h
+Queue1	QueueLengthTimes[2]	0.026881780555555353	h
+Queue1	QueueLengthTimes[3]	0.01018283111111121	h
+Queue1	QueueLengthTimes[4]	9.686436111110829E-4	h
+Queue1	AverageQueueTime	2.6819269416099723E-4	h
+Queue1	NumberReneged	0.0	-
+
+Queue3	StateTimes[None]	1.0	h
+Queue3	NumberAdded	73.0	-
+Queue3	NumberProcessed	73.0	-
+Queue3	QueueLengthAverage	6.856111111111178E-4	-
+Queue3	QueueLengthStandardDeviation	0.026175199111285456	-
+Queue3	QueueLengthMinimum	0.0	-
+Queue3	QueueLengthMaximum	1.0	-
+Queue3	QueueLengthTimes[0]	0.9993143888888889	h
+Queue3	QueueLengthTimes[1]	6.856111111111178E-4	h
+Queue3	AverageQueueTime	9.391933028919422E-6	h
+Queue3	NumberReneged	0.0	-
+
+*** Server ***
+
+Exam1	StateTimes[Breakdown]	0.0	h
+Exam1	StateTimes[Idle]	0.33740718972222217	h
+Exam1	StateTimes[Maintenance]	0.0	h
+Exam1	StateTimes[Stopped]	0.0	h
+Exam1	StateTimes[Working]	0.6625928102777777	h
+Exam1	Utilisation	0.6625928102777777	-
+Exam1	Commitment	0.6625928102777778	-
+Exam1	Availability	1.0	-
+Exam1	Reliability	1.0	-
+Exam1	NumberAdded	782.0	-
+Exam1	NumberProcessed	781.0	-
+
+Exam3	StateTimes[Breakdown]	0.0	h
+Exam3	StateTimes[Idle]	0.9563257747222221	h
+Exam3	StateTimes[Maintenance]	0.0	h
+Exam3	StateTimes[Stopped]	0.0	h
+Exam3	StateTimes[Working]	0.04367422527777777	h
+Exam3	Utilisation	0.04367422527777777	-
+Exam3	Commitment	0.04367422527777787	-
+Exam3	Availability	1.0	-
+Exam3	Reliability	1.0	-
+Exam3	NumberAdded	73.0	-
+Exam3	NumberProcessed	73.0	-
+
+*** SimEntity ***
+
+Patient	StateTimes[None]	1.0	h
+
